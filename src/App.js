@@ -9,7 +9,7 @@ function App() {
         Ant Design 実験場
       </div>
       <Routes>
-          <Route path="/navigation/NavBar" element={<NavBar />} />
+          <Route path="/layout/navigation/navbar" element={<NavBar />} />
       </Routes>
     </>
   );
