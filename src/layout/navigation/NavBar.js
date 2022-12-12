@@ -7,8 +7,8 @@ const { Header, Content } = Layout;
 const NavBar = () => (
   <>
     <Layout>
-      <Header>
-        <Menu mode="horizontal" >
+      <Header style={{backgroundColor: "#aaa"}}>
+        <Menu mode="horizontal" style={{backgroundColor: "#aaa"}}>
           <Menu.Item>
             メニュー1
           </Menu.Item>

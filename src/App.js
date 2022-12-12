@@ -9,7 +9,7 @@ function App() {
       <div>
         <h1> Ant Design 実験場 </h1>
         <h2> 各ページ </h2>
-          <Link to="/layout/navigation/navbar"> 横サイドバー  </Link>
+          <Link to="/layout/navigation/navbar"> 横NavBar  </Link>
       </div>
       <Routes>
           <Route path="/layout/navigation/navbar" element={<NavBar />} />
